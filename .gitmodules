@@ -1,0 +1,3 @@
+[submodule "execDAT-CLI"]
+	path = execDAT-CLI
+	url = git@github.com:AustrianDataLAB/execDAT-CLI.git
