@@ -1,4 +1,8 @@
 [submodule "execDAT-CLI"]
 	path = execDAT-CLI
 	url = git@github.com:AustrianDataLAB/execDAT-CLI.git
-  branch = main
+	branch = main
+[submodule "execDAT-operator"]
+	path = execDAT-operator
+	url = git@github.com:AustrianDataLAB/execDAT-operator.git
+	branch = main
