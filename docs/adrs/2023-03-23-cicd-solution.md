@@ -17,3 +17,4 @@ We decided to use Github Action Workflows because we already use Github for othe
 ## Consequences
 
 What are the consequences of the change? What will be more difficult? What will be easier?
+
