@@ -1,0 +1,17 @@
+# main.yml
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+    - name: Operator-SDK K8s Action
+      uses: dramirez-qb/operator-sdk-github-action@v3
+    - uses: actions/checkout@v3
+    - id: foo
+      uses: actions/hello-world-composite-action@v1
+      with:
+        who-to-greet: 'Mona the Octocat'
+    - run: echo random-number ${{ steps.foo.outputs.random-number }}
+      shell: bash
