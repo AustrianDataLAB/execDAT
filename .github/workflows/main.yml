@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        submodules: recursive
+        submodules: true
     - uses: ./actions/operator.yml
 
