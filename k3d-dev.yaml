@@ -13,7 +13,7 @@ image: docker.io/rancher/k3s:v1.25.6-k3s1
 #   hostPort: "6445" # where the Kubernetes API listening port will be mapped to on your host system
 network: k3d-network # same as `--network my-custom-net`
 ports:
-  - port: 8080:80 # same as `--port '8080:80@loadbalancer'`
+  - port: 6699:80 # same as `--port '8080:80@loadbalancer'`
     nodeFilters:
       - loadbalancer
 
