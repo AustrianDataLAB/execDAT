@@ -3,7 +3,7 @@
 Date: 2023-03-16
 
 ## Status
-__PROPOSED__
+__ACCEPTED__
 
 ## Context
 
