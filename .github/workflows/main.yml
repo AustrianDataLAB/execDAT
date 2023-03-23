@@ -2,9 +2,9 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  operator:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: build operator
     steps:
     - uses: actions/checkout@v3
       with:
