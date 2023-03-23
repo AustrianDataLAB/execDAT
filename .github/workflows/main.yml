@@ -8,6 +8,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        submodules: true
-    - uses: ./actions/operator.yml
-
+        submodules: recursive
+    - uses: ./exexDAT-operator/.github
