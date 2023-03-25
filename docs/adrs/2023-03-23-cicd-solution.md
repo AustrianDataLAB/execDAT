@@ -12,7 +12,7 @@ We need to dicide on a CI/CD solution for our project, so we can automate certai
 
 ## Decision
 
-Some choices for our CICD platform would be GitHub Actions, Tekton, Jenkins or Argo CD. Solutions like Tekton or Argo CD are build up upon Kubernetes, are cloud-native and platform agnostic. GitHub Actions workflows are much simpler and only require a yaml file for configuration. We decided to use GitHub Actions workflows because we already use GitHub for other related tasks, such as branch naming and protection rules, and therfore we have all of our configuration in one place. Additionally, GitHub Actions are much easier to setup and there are many already existing yaml configurations we can build up upon.
+Some choices for our CICD platform would be GitHub Actions, Tekton, Jenkins or Argo CD. Solutions like Tekton or Argo CD are build up upon Kubernetes, are cloud-native and platform agnostic. GitHub Actions workflows are much simpler, have predefined workflow steps and only require a yaml file for configuration. We decided to use GitHub Actions workflows because we already use GitHub for other related tasks, such as branch naming and protection rules, and therfore we have all of our configuration in one place. Additionally, GitHub Actions are much easier to setup and there are many already existing yaml configurations we can build up upon.
 
 ## Consequences
 
