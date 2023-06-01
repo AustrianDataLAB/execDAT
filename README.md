@@ -15,6 +15,9 @@ Normally this would require a researcher to complete the following steps:
 
 With our application, these steps are simplified to writing a single standardized development environment configuration file and applying it using our provided CLI tool.
 
+## Architecture
+![Architecture](docs/images/architecture_overview.png)
+
 ## Getting Started
 
 ### Prerequisites
