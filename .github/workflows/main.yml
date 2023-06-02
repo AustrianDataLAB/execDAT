@@ -1,0 +1,12 @@
+# main.yml
+on: [push]
+
+jobs:
+  operator:
+    runs-on: ubuntu-latest
+    name: build operator
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: recursive
+    - uses: ./execDAT-operator/.github
